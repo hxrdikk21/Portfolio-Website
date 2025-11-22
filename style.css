@@ -1,7 +1,7 @@
- html{
-    scroll-behavior: smooth;
+ html {
+     scroll-behavior: smooth;
  }
- 
+
  * {
      margin: 0;
      padding: 0;
@@ -219,21 +219,42 @@
  .con-col-2 {
      flex-basis: 60%;
  }
- .con-col-2 ul li{
-    margin: 40px 0;
-    font-size: 25px;
-    list-style: none;
+
+ .con-col-2 ul li {
+     margin: 40px 0;
+     font-size: 25px;
+     list-style: none;
  }
 
- .con-col-2 ul li span{
-    color: rgb(68, 224, 149);
+ .con-col-2 ul li span {
+     color: rgb(68, 224, 149);
  }
 
  #contact {
      padding: 80px 80px;
  }
 
- .con-col-2 ul li span a{
-    text-decoration: none;
-    color: rgb(68, 224, 149);
+ .con-col-2 ul li span a {
+     text-decoration: none;
+     color: rgb(68, 224, 149);
+ }
+
+ /* Social Icons */
+ .social-icons {
+     margin-top: 30px;
+ }
+
+ .social-icons a {
+     text-decoration: none;
+     font-size: 50px;
+     margin-right: 20px;
+     color: #ababab;
+     display: inline-block;
+     transition: transform 0.5s;
+ }
+
+ .social-icons a:hover {
+     color: rgb(68, 224, 149);
+     transform: translateY(-5px);
+     text-shadow: 0 0 10px rgb(68, 224, 149);
  }

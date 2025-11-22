@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <title>Hardik Sachdeva - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,7 +20,7 @@
                 <ul>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    
+
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#contact">Contacts</a></li>
                 </ul>
@@ -57,8 +58,8 @@
 
                         <div class="tab-titles">
                             <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
-                            
-                            <p class="tab-links"onclick="opentab('education')">Education</p>
+
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
                         </div>
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
@@ -66,7 +67,7 @@
                                 <li><span>Video Editing</span><br>Premier Pro/After Effects</li>
                             </ul>
                         </div>
-                        <div class="tab-contents" id ='education'>
+                        <div class="tab-contents" id='education'>
                             <ul>
                                 <li><span>School</span><br>Sachdeva Public School</li>
                                 <li><span>Graduation</span><br>Delhi Technological University</li>
@@ -83,14 +84,20 @@
             <div class="container">
                 <div class="row">
                     <div class="proj-col-1">
-                        <img src="gh.png" >
+                        <img src="gh.png">
                     </div>
                     <div class="proj-col-2">
-                        <h1 class ="subtitle">Projects</h1>
-                        <p>Welcome to my projects section. Here you'll find highlights of my work, including Smart Image Studio, a dynamic application built with OpenCV that allows users to perform a wide range of real-time image processing operations. Additionally, this portfolio website itself is a project I built from the ground up, designed to be a clean, responsive, and effective showcase of my technical skills and creative work.</p>
+                        <h1 class="subtitle">Projects</h1>
+                        <p>Welcome to my projects section. Here you'll find highlights of my work, including Smart Image
+                            Studio, a dynamic application built with OpenCV that allows users to perform a wide range of
+                            real-time image processing operations. Additionally, this portfolio website itself is a
+                            project I built from the ground up, designed to be a clean, responsive, and effective
+                            showcase of my technical skills and creative work.</p>
                         <br>
                         <br>
-                        <div class="link"> <h2><a href="https://github.com/hxrdikk21" target="_blank">Github</a></h2></div>
+                        <div class="link">
+                            <h2><a href="https://github.com/hxrdikk21" target="_blank">Github</a></h2>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,27 +113,30 @@
                     </div>
                     <div class="con-col-2">
                         <h1 class="subtitle">Contact</h1>
-                        <ul>
-                            <li><span><a href="https://www.linkedin.com/in/hxrdik-sachdeva/"target="_blank">Linkedin<a><span></li>
-                            <li><span>Email: </span>hsachdeva05@gmail.com</li>
-                        </ul>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/hxrdik-sachdeva/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="mailto:hsachdeva05@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://www.instagram.com/hxrdik_sachdeva/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
 
-                    </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+        </div>
+
 
 
         <script>
             var tablinks = document.getElementsByClassName("tab-links")
             var tabcontents = document.getElementsByClassName("tab-contents")
-            function opentab(tabname){
-                for(tablink of tablinks){
+            function opentab(tabname) {
+                for (tablink of tablinks) {
                     tablink.classList.remove("active-link");
                 }
-                for(tabcontent of tabcontents){
+                for (tabcontent of tabcontents) {
                     tabcontent.classList.remove("active-tab");
                 }
                 event.currentTarget.classList.add("active-link")

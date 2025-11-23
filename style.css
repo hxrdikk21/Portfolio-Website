@@ -20,7 +20,7 @@
  body::before {
 
      content: "";
-     background-image: url(bg.jpg);
+     background-image: url(gradient.jpg);
      position: fixed;
      top: 0;
      left: 0;

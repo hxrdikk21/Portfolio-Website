@@ -262,24 +262,14 @@
     border-radius: 6px;
  }
 
- .con-col-2 ul li {
-     margin: 40px 0;
-     font-size: 25px;
-     list-style: none;
- }
 
- .con-col-2 ul li span {
-     color: rgb(68, 224, 149);
- }
+ 
 
  #contact {
      padding: 80px 80px;
  }
 
- .con-col-2 ul li span a {
-     text-decoration: none;
-     color: rgb(68, 224, 149);
- }
+ 
 
  /* Social Icons */
  .social-icons {

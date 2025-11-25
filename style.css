@@ -232,44 +232,47 @@
      flex-basis: 35%;
  }
 
- .con-col-1 p{
-    margin-top: 30px;
+ .con-col-1 p {
+     margin-top: 30px;
 
  }
- .con-col-1 p i{
-    color:rgb(68, 224, 149);
-    margin-right: 15px;
-    font-size: 25px;
+
+ .con-col-1 p i {
+     color: rgb(68, 224, 149);
+     margin-right: 15px;
+     font-size: 25px;
  }
- 
+
 
  .con-col-2 {
      flex-basis: 60%;
  }
 
- .con-col-2 form{
-    width: 100%;
+ .con-col-2 form {
+     width: 100%;
  }
- form input , form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
+
+ form input,
+ form textarea {
+     width: 100%;
+     border: 0;
+     outline: none;
+     background: #262626;
+     padding: 15px;
+     margin: 15px 0;
+     color: #fff;
+     font-size: 18px;
+     border-radius: 6px;
  }
 
 
- 
+
 
  #contact {
      padding: 80px 80px;
  }
 
- 
+
 
  /* Social Icons */
  .social-icons {
@@ -285,22 +288,31 @@
      transition: transform 0.5s;
  }
 
+ .social-icons.git a {
+     font-size: 60px;
+ }
+
  .social-icons a:hover {
      color: rgb(68, 224, 149);
      transform: translateY(-5px);
      text-shadow: 0 0 10px rgb(68, 224, 149);
  }
 
- .btn{
-    display: inline-block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid rgb(68, 224, 149);
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #fff;
-    background: rgb(68, 224, 149);
+ .social-icons p {
+     color: #ababab;
+     font-size: 14px;
+ }
+
+ .btn {
+     display: inline-block;
+     margin: 50px auto;
+     width: fit-content;
+     border: 1px solid rgb(68, 224, 149);
+     padding: 14px 50px;
+     border-radius: 6px;
+     text-decoration: none;
+     color: #fff;
+     background: rgb(68, 224, 149);
  }
 
  .footer {
